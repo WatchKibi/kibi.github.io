@@ -1,0 +1,158 @@
+/* need lighten animation on btns on hover */
+/* spacing between see whats next and font beneath is too wide */
+
+body {
+  font-family: Source sans pro;
+  overflow-x: hidden; 
+}
+.header{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.logo img{
+  width: 107px;
+  padding-top: 30px;
+/*   height: 75px; */
+}
+.sign-in {
+  background-color: white;
+  color: #6CAB9F;
+  font-weight: 400;
+  float: right;
+  padding: 7px 17px;
+  margin: 18px 3% 0;
+  border-radius: 500px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: box-shadow 0.5s; /* Safari */
+  transition: box-shadow 0.5s;
+}
+a:hover{
+  box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.main-photo {
+  width: 110%;
+  height: 1000px;
+  overflow: hidden;
+/* Border needs to be removed   */
+  border: ;
+  position: relative;
+  background-image: url("https://i.ibb.co/Htd0J6t/background.png");
+  background-size: cover;
+  background-position: center;
+  right: 5%;
+  margin-top: -1%;
+}
+  .main-photo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: ;
+/*     opacity: 0.8; */
+  }
+.join{
+  position: absolute;
+  margin-top: -60%;
+  padding-left: 2%;
+}
+.join-text{
+  color: #fff;
+  font-size: 28px;
+  padding: 0
+}
+.join-text h1{
+  padding-bottom: -30px;
+}
+.join-text p{
+  font-size: 24px;
+  padding-top: -25px;
+}
+.join-btn button{
+  background-color: white;
+  color: #559DAF;
+  font-size: 14px;
+  padding: 14px 16px;
+  border-radius: 500px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: box-shadow 0.5s; /* Safari */
+  transition: box-shadow 0.5s;
+}
+.join-btn button:hover{
+  box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+.lower{
+  background-color: white;
+  background-size: cover;
+  width: 102%;
+  height: 200px;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.features{
+  margin-left: 2%;
+}
+.feat-container{
+  border: ;
+  display: inline-block;
+  margin: 2% 10% 0 10%;
+  
+}
+
+.feat-text{
+  color: #6CAB9F;
+  text-align: center;
+}
+.feat-1-desc{
+/*   display: flex; */
+}
+.feat-1-desc-text {
+  color: #fff;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  display: flex;
+}
+.feat-1-desc-btn {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.feat-1-desc-extra {
+  width: auto;
+  max-width: 100%;
+  margin-left: 25%;
+  margin-top: 2%;
+  height: auto;
+  max-height: 400px;
+  display: inline-block;
+}
+
+
+.column{
+	
+}
+
+.cercles{
+	width: 10.2%;
+	border-radius: 0px;
+	display: inline-block;
+	float: left;
+	margin-top: -10px;
+	margin: 15px;
+	margin-bottom: 35px;
+}
+
+ .cercles:hover {
+	 
+ }
+ 
+ .rowcercles {
+	overflow: auto;
+	width: 100%;
+}
